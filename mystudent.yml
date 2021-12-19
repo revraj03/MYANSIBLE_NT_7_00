@@ -1,0 +1,21 @@
+students:
+- name: rekha
+  phonenum: 9992223334
+  address:
+   - state: TN
+   - city: chennai
+   - street: 102
+
+- name: reva
+  phonenum: 9991112321
+  address:
+     - state: TN
+     - city: chennai
+     - street: 104  
+
+- name: Hittu
+  phone num: 1234567654
+  address:
+    - state: Mumbai
+    - city: pune 
+    - street:109
