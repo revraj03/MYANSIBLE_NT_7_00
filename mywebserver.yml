@@ -4,6 +4,6 @@
   tasks: 
    - name: i want to install webserver on ubuntu16 ansible node
      apt:
-      - name: apache2
-      - state: present
+       name: apache2
+       state: present
  
