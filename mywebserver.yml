@@ -8,6 +8,7 @@
        name: apache2
        state: present
      when: ansible_os_family =="Debian"
+     
    - name: i want to install webserver on redhat ansible node
      yum:
       name: httpd
