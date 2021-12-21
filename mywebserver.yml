@@ -1,9 +1,15 @@
 --- 
 - hosts: all 
   become: yes 
+  gather_facts: yes
   tasks: 
    - name: i want to install webserver on ubuntu16 ansible node
      apt:
        name: apache2
        state: present
- 
+     when: ansible_os_family=="Debian"
+   - name: i want to install webserver on redhat ansible node
+     yum:
+      name: httpd
+      state: present 
+  when: ansible_os_family=="redhat"
