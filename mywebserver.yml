@@ -12,13 +12,13 @@
    - name: i want to start webserver on ubuntu 16 ansible node
      service:
        name: httpd
-       state: present 
+       state: started
      when: ansible_os_family =="Debian"
 
    - name: i want to start webserver on redhat ansible node
      service:
         name: httpd
-        state: present 
+        state: started 
      when: ansible_os_family =="Redhat"
 
 
