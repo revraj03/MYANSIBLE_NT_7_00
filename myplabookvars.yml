@@ -9,6 +9,7 @@
    - name: install git 
      apt:
       name: "{{myvar1}}"
+      state: present
 
    - name: i want to display myvar1
      debug: 
