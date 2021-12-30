@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.26.171
+- hosts: 172.31.12.112
   become: yes
   tasks:
    - name: i want to install git,tree,wget
